@@ -156,7 +156,7 @@ ul {
 }
 .contacts-list {
   display: flex;
-  gap: 40px;
+  
 }
 .address-link {
   font-style: normal;
@@ -338,6 +338,7 @@ ul {
 .list-doing {
   gap: 24px;
   display: flex;
+  
 }
 .item-doing {
   width: calc((100% - 48px) / 3);
@@ -428,6 +429,7 @@ ul {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
 }
 .link-company:hover,
 .link-company:focus {
@@ -499,9 +501,7 @@ ul {
   justify-content: center;
   margin-bottom: 72px;
 }
-.item-btn + .item-btn {
-  margin-left: 24px;
-}
+
 .list-filter {
   display: flex;
   flex-wrap: wrap;
@@ -703,7 +703,7 @@ img {
 .footer-flex {
   display: flex;
   align-items: baseline;
-  gap: 120px;
+  
 }
 .flex-container {
   margin-right: 120px;
