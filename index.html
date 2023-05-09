@@ -65,7 +65,15 @@
         <button data-modal-open class="btn-hero" type="button">
           Order Service
         </button>
-        
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+            <button data-modal-close>
+              <svg class="svg-btn" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </section>
 
       <!--Section2-->
@@ -407,15 +415,7 @@
       </div>
     </footer>
       
-      <div class="data-modal-content "data-modal>
-        <div class=" backdrop is-hidden" >
-          <button data-modal-close class="modal-btn" type="button">
-          <svg class="svg-btn" width="8" height="8">
-            <use href="./images/icons.svg#icon-Vector"></use></svg>
-
-        </button>
-    </div>
-      </div>
+   
     <script src="./js/modal.js"></script>
   </body>
 </html>
