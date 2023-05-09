@@ -442,8 +442,7 @@ ul {
 .section-hero-button:focus {
   background-color: #404bbf;
 }
-/* backdrop. */
-.backdrop is-hidden {
+.backdrop{
   position: fixed;
   top: 0;
   left: 0;
