@@ -555,7 +555,7 @@ ul {
 }
 .portfolio-link:hover .card-animations
  {
-  transform:translateY(0);
+  transform:translateY(0%);
 }
 .card-animations > p {
   width: 296px;
