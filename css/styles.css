@@ -542,7 +542,7 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.card-animations {
+.card-animations  > p{
   position: absolute;
   top: 0;
   left: 0;
@@ -557,6 +557,12 @@ ul {
  {
   transform:translateY(0%);
 }
+.card-animations :hover > p
+.card-animations :focus > p{
+  transform: translateY(0%);
+}
+
+
 .card-animations > p {
   width: 296px;
   min-height: 96px;
