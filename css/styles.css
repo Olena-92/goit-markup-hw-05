@@ -560,8 +560,8 @@ ul {
  {
   transform:translateY(0%);
 }
-.div-animations :hover > p,
-.div-animations:focus > p{
+
+.div-animations:focus .card-animations{
   transform: translateY(0%);
   
 }
