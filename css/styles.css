@@ -561,7 +561,7 @@ ul {
   transform:translateY(0%);
 }
 
-.div-animations:focus .card-animations{
+.portfolio-link:focus .card-animations{
   transform: translateY(0%);
   
 }
