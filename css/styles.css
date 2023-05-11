@@ -562,7 +562,8 @@ ul {
 }
 .div-animations :hover > p,
 .div-animations:focus > p{
-  transform: translateY(0%)
+  transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 
