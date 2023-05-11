@@ -542,7 +542,11 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.card-animations  {
+.card-animations   {
+  line-height: 1.5; 
+  letter-spacing: 0.02em; 
+  color: #f4f4fd; 
+  padding: 40px 32px; 
   position: absolute;
   top: 0;
   left: 0;
@@ -557,20 +561,22 @@ ul {
  {
   transform:translateY(0%);
 }
-.div-animations :hover > p
+.div-animations :hover > p{
+  transform: translateY(0%)
+}
 .div-animations:focus > p{
   transform: translateY(0%);
 }
 
 
-.card-animations > p {
+.card-animations >p {
   width: 296px;
   min-height: 96px;
-
+  line-height: 1.5;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 40px 32px;
   color: #f4f4fd;
 }
 .portfolio-link {
