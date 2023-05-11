@@ -560,7 +560,7 @@ ul {
  {
   transform:translateY(0%);
 }
-.div-animations :hover > p
+.div-animations :hover > p,
 .div-animations:focus > p{
   transform: translateY(0%)
 }
