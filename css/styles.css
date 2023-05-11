@@ -542,7 +542,7 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.card-animations  {
+.div-animations .card-animations  {
   position: absolute;
   top: 0;
   left: 0;
