@@ -538,11 +538,11 @@ ul {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
 }
-.div-animations {
+.div-animations  {
   position: relative;
   overflow: hidden;
 }
-.card-animations  > p{
+.card-animations  {
   position: absolute;
   top: 0;
   left: 0;
